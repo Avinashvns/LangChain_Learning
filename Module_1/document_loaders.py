@@ -4,4 +4,4 @@ loader = PyPDFLoader("Module_1/python.pdf")
 
 documents = loader.load()
 
-print(documents[0].metadata["page"])
+print(documents)
