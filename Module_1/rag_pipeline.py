@@ -59,7 +59,10 @@ Context:
 )
 
 # Document Chain
-document_chain = create_stuff_documents_chain(llm,prompt)
+document_chain = create_stuff_documents_chain(
+    llm,
+    prompt
+)
 
 # Retrieval Chain
 retrieval_chain = create_retrieval_chain(retriever, document_chain)
